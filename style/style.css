@@ -11,10 +11,13 @@ a:hover {
   size:20px;
 }
 .row {
+  padding: 10px;
   margin: 100px 0;
 }
 
 .presentation {
+  padding: 20px;
+  background:grey;
   height: 200px;
   text-align: center;
 }
