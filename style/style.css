@@ -1,18 +1,20 @@
-div {
+/*div {
   border: 1px solid Black;
-  padding: 3px;
+  padding: 3px;*/
 }
 a {
   color: red;
 }
+
 a:hover {
   color: green;
   text-decoration:none;
-  size:20px;
 }
+
+/*
 .row {
-  padding: 10px;
-  margin: 100px 0;
+  background: grey;
+  margin:50px; 0 ;
 }
 
 .presentation {
@@ -20,4 +22,5 @@ a:hover {
   background:grey;
   height: 200px;
   text-align: center;
+
 }
