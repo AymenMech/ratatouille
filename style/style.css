@@ -10,6 +10,11 @@ a:hover {
   text-decoration:none;
   size:20px;
 }
+.row {
+  margin: 100px 0;
+}
+
 .presentation {
-  display: flex;
+  height: 200px;
+  text-align: center;
 }
