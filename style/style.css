@@ -1,15 +1,25 @@
-div {
+/*div {
   border: 1px solid Black;
-  padding: 3px;
-}
-a {
+  padding: 3px;*/
+
+li a {
   color: red;
 }
-a:hover {
+
+li a:hover {
   color: green;
-  text-decoration:none;
-  size:20px;
+  }
+
+/*
+.row {
+  background: grey;
+  margin:50px; 0 ;
 }
+
 .presentation {
-  display: flex;
+  padding: 20px;
+  background:grey;
+  height: 200px;
+  text-align: center;
+
 }
