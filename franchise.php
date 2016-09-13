@@ -50,7 +50,7 @@ include"inc/header.php";
  </div>
 </div>
 
-<a href="formfranchise.html"<button type="button" class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 btn btn-primary btn-lg">Rejoins l'aventure Ratatouille !</button>
+<a href="formfranchise.html"<button type="button" class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 btn btn-primary btn-lg">Rejoins l'aventure Ratatouille !</button></a>
 
 </div>
 

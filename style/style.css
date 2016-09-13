@@ -1,15 +1,14 @@
 /*div {
   border: 1px solid Black;
   padding: 3px;*/
-}
-a {
+
+li a {
   color: red;
 }
 
-a:hover {
+li a:hover {
   color: green;
-  text-decoration:none;
-}
+  }
 
 /*
 .row {
