@@ -10,13 +10,21 @@ li a:hover {
   color: green;
   }
 
+  /*Formulaire franchise*/
+
 .franchise{
       border: 2px solid black;
       background: lightblue none repeat scroll 0% 0%;
       border-radius: 12px;
       padding: 20px 0px 20px 20px;
+      margin: 40px 10px;
 }
 
 .franchise .row {
   margin-bottom: 20px;
 }
+ /*Page d'attente redirection*/
+.redirection {
+     background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
+     background-size: cover;
+ }

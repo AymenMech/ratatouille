@@ -1,4 +1,12 @@
 <?php include'inc/link.php'; ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+  </head>
+  <body>
+
 
 <div class="container">
   <form class="franchise" action="redirec.php" method="post">
@@ -162,3 +170,5 @@
 </form>
 
 </div>
+</body>
+</html>
