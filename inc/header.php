@@ -17,34 +17,53 @@
   </head>
   <body>
 <header>
-  <!-- <nav>
-    <ul>
-      <li><a href="index.php">Accueil</a></li>
-      <li><a href="">Nos restaurants</a></li>
-      <li><a href="about.php">Qui sommes-nous ?</a></li>
-      <li><a href="franchise.php">Franchise</a></li>
-      <li><a href=""></a></li>
+ 
 
-    </ul>
-  </nav> -->
-
-
+<!-- barre de navigation / navbar menu ____________________________________ 
   <nav class="navbar navbar-default" style="height:75px;">
     <div class="container">
       <div class="navbar-header">
+        <button class="navbar-toogle" data-toogle = "collapse" data-target = ".navHeaderCollapse"></button>
         <a class="navbar-brand" href="index.php">
-          <img alt="Brand" src="images/Logo.png" style="height:50px; widhth:50px; top : 25px;">
+          <img alt="Brand" src="images/Logo.png" style="height:50px; width:50px; top : 25px;">
         </a>
       </div>
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="index.php">Accueil</a></li>
-        <li><a href="#">Nos restaurants</a></li>
-        <li><a href="about.php">Qui sommes-nous ?</a></li>
-        <li><a href="franchise.php">Franchise</a></li>
-        <li><a href=""></a></li>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.php">Accueil</a></li>
+          <li><a href="#">Nos restaurants</a></li>
+          <li><a href="about.php">Qui sommes-nous ?</a></li>
+          <li><a href="franchise.php">Franchise</a></li>
+          <li><a href=""></a></li>
+        </ul> 
+     </div>
     </div>
-  </div>
+  </nav>
+  -->
+  <nav>
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="containerHead">
+        <a class="navbar-brand" href="index.php">
+          <img class ="logo" alt="Brand" src="images/Logo.png" ;">
+        </a>
+        <button class="navbar-toggle" data-toggle ="collapse" data-target = ".navHeaderCollapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse navHeaderCollapse menu">
+          <ul class="nav navbar-nav navbar-right">
+            <li class="menuTitle"><a href="index.php">Accueil</a></li>
+            <li class="menuTitle"><a href="#">Nos restaurants</a></li>
+            <li class="menuTitle"><a href="about.php">Qui sommes-nous ?</a></li>
+            <li class="menuTitle"><a href="franchise.php">Franchise</a></li>
+          </ul> 
+
+
+        </div>
+      </div>
+    </div>
+
   </nav>
 
 </header>

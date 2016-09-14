@@ -1,25 +1,59 @@
-/*div {
-  border: 1px solid Black;
-  padding: 3px;*/
-
+body{
+  background-color: blue;
+}
 li a {
   color: red;
 }
 
 li a:hover {
   color: green;
-  }
+}
+.container{
+  background-color: red;
 
-/*
-.row {
-  background: grey;
-  margin:50px; 0 ;
+} 
+
+.photo{
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin:0 auto;
+  border-radius: 10px;
+}
+.prez1, .prez2{
+  padding :10px;
+  border:1px solid black;
 }
 
-.presentation {
-  padding: 20px;
-  background:grey;
-  height: 200px;
-  text-align: center;
+.prez2{
+}
+p{
+  background-color: grey;
+text-align: justify;
+padding:10px;
+}
+ /*    ---------    header   ----    */
+.logo{
+  height:50px;
+  width:50px;
+  top : 25px
+}
+.navbar-inverse{
+  background-color:#990033;
 
+}
+.navbar-right, .menuTitle{
+  
+  margin-right: 20px;
+  
+}
+/*couleur du fond bouton nav*/
+.navbar-inverse .navbar-toggle:hover{
+
+  background-color: blue;
+}
+/*couleur du bouton*/
+    
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: red;
 }
