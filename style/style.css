@@ -1,38 +1,15 @@
 body{
   background-color: blue;
 }
-li a {
-  color: red;
-}
 
-li a:hover {
-  color: green;
-}
 .container{
-  background-color: red;
+  margin-top:50px;
+  background-image: url(http://s18.postimg.org/anoe9vccp/food_1622390.jpg);
 
 } 
 
-.photo{
-  display: block;
-  width: 250px;
-  height: 250px;
-  margin:0 auto;
-  border-radius: 10px;
-}
-.prez1, .prez2{
-  padding :10px;
-  border:1px solid black;
-}
 
-.prez2{
-}
-p{
-  background-color: grey;
-text-align: justify;
-padding:10px;
-}
- /*    ---------    header   ----    */
+ /*    ---------    header   ---- ------------   */
 .logo{
   height:50px;
   width:50px;
@@ -55,5 +32,59 @@ padding:10px;
 /*couleur du bouton*/
     
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: red;
+    background-color: orange;
 }
+
+
+/*--------     footer  ------------------------ */
+.footer{
+  
+ 
+}
+
+footer {
+  color: yellow;
+  text-align: center;
+  background-color:#990033;
+  height: 50px;
+}
+.fooText{
+  margin-top: 15px;
+}
+.fooText ul li {
+  margin-top: -5px;
+  list-style-type: none;
+}
+
+/*----------- accueil       --------*/
+
+/* decale le caroussel du header*/
+.carousel-inner > .item > a > img{
+
+  margin-top:50px; 
+  }
+
+
+
+/*    ------about----------------*/
+.photo{
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin:0 auto;
+  border-radius: 10px;
+}
+.prez1, .prez2{
+  padding :10px;
+  border:1px solid black;
+}
+
+.prez2{
+}
+.prez1 p, .prez2 p{
+  background-color: grey;
+  text-align: justify;
+  padding:10px;
+}
+
+/* --------------  -----------------*/

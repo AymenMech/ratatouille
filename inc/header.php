@@ -42,7 +42,7 @@
   -->
   <nav>
     <div class="navbar navbar-inverse navbar-fixed-top">
-      <div class="containerHead">
+      <div class="container-fluid">
         <a class="navbar-brand" href="index.php">
           <img class ="logo" alt="Brand" src="images/Logo.png" ;">
         </a>
