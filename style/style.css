@@ -10,6 +10,13 @@ li a:hover {
   color: green;
   }
 
-.row {
+.franchise{
+      border: 2px solid black;
+      background: lightblue none repeat scroll 0% 0%;
+      border-radius: 12px;
+      padding: 20px 0px 20px 20px;
+}
 
+.franchise .row {
   margin-bottom: 20px;
+}
