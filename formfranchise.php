@@ -1,8 +1,8 @@
 <?php include'inc/link.php'; ?>
 
 <div class="container">
-  <form class="" action="redirec.php" method="post">
-<h2 class="text-center" style="margin:40px auto;" >Renseignements Personnels</h2>
+  <form class="franchise" action="redirec.php" method="post">
+<h2 class="text-center" style="margin:40px auto;">Renseignements Personnels</h2>
 
   <div class="row">
     <div class="class col-md-4">
