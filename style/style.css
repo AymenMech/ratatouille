@@ -10,16 +10,6 @@ li a:hover {
   color: green;
   }
 
-
 .row {
 
   margin-bottom: 20px;
-}
-
-.presentation {
-  padding: 20px;
-  background:grey;
-  height: 200px;
-  text-align: center;
-
-}

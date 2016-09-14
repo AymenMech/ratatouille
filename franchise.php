@@ -14,6 +14,7 @@ include"inc/header.php";
      </h4>
    </div>
    <div id="collapse1" class="panel-collapse collapse in">
+
      <div class="panel-body">
        <p>
          Se lancer en franchise est un processus en plusieurs étapes. Du bilan personnel à l'étude du marché, il faut se fixer des objectifs pour préparer au mieux sa création d'entreprise. Voyons les démarches que vous devez accomplir pour devenir franchisé.
