@@ -4,7 +4,6 @@ $titre= "Accueil";
 include"inc/header.php";
 ?>
 
-
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carousel-example" data-slide-to="0" class="active"></li>
@@ -50,7 +49,6 @@ include"inc/header.php";
 
 <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js'></script>
-
 
 <?php include"inc/footer.php";
 ?>

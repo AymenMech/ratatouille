@@ -1,5 +1,5 @@
 
-<footer>
+<footer class="navbar-inverse navbar-fixed-bottom">
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-md-4 col-xs-4 fooText">
