@@ -12,7 +12,9 @@ include"inc/header.php";
 				<img class=" img-responsive" src="img/resto1.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
+
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal1">En savoir plus
+
 				</button>
 
 				<!-- Modal -->
@@ -32,19 +34,22 @@ include"inc/header.php";
 						        		<ul>
 						        			<li>17 av delandine</li>
 						        			<li>69002 Lyon</li> 
-						        			<li>04.</li>
+						        			<li>04.77.54.22.36</li>
+
 						        		</ul>
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto2___________________________________________________________________________________________________________-->
 		<div class="col-md-4 col-sm-6">
@@ -78,14 +83,16 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
-						       
+						      
+	
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto3-->
@@ -96,6 +103,8 @@ include"inc/header.php";
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal3">En savoir plus
+
+
 				</button>
 
 				<!-- Modal -->
@@ -120,14 +129,15 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto4                ________-->
@@ -136,7 +146,10 @@ include"inc/header.php";
 				<img class="img-responsive" src="img/resto4.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
+
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal4">En savoir plus
+
+
 				</button>
 
 				<!-- Modal -->
@@ -163,12 +176,13 @@ include"inc/header.php";
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto5-->
@@ -202,14 +216,16 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
-						       
+			
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto6-->
 		<div class="col-md-4 col-sm-6">
@@ -242,14 +258,16 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto7-->
 		<div class="col-md-4 col-sm-6 ">
@@ -282,14 +300,16 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
+
 						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 	</div>

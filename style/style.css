@@ -1,8 +1,9 @@
 body{
-  
+
+
   background-image: url(http://s4.postimg.org/d25yqkfj1/background1.jpg);
   background-attachment: fixed;
-  background-size: cover; 
+  background-size: cover;
   background-position: center center;
   font-family: 'Acme', sans-serif;
   color:#482062;
@@ -10,11 +11,17 @@ body{
 }
 
 .container{
-  margin-top:50px;
+
+  margin-top:150px;
 } 
  li{
 list-style-type: none;
  }
+
+  /*margin-top:150px;
+  margin-bottom: 80px;
+}*/
+
 
  /*    ---------    header   ---- ------------   */
 
@@ -26,15 +33,17 @@ list-style-type: none;
 .logo{
   height:50px;
   width:auto;
+
 }
 .navbar-inverse{
+
   background-color:#ecb00f;
 
 }
 .navbar-right, .menuTitle{
-  
+
   margin-right: 20px;
-  
+
 }
 
 .navbar-inverse .navbar-nav > li > a{
@@ -49,12 +58,21 @@ color: #482062;
 margin-top: 0px;
 }
 /*couleur du bouton*/
-    
+
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: orange;
  }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+   border: none;
+ }
 
 /*--------     footer  ------------------------ */
+
+
+.modal-backdrop{
+  position: relative;
+}
+
 
 footer {
   color:#482062;
@@ -69,12 +87,18 @@ footer {
   margin-top: -5px;
   list-style-type: none;
 }
+
 .fooText a{
 color:#482062;
 }
 .fooText a:hover{
 text-decoration: none;
 color: #50c02d;
+}
+
+
+footer a:hover {
+  cursor: pointer;
 }
 
 /*----------- accueil       --------*/
@@ -85,10 +109,9 @@ color: #50c02d;
 
 
 .carousel-inner > .item > a > img{
-
   margin-top:50px;
   width: auto;
-  height: 100%; 
+  height: 100%;
   }
 
 
@@ -104,25 +127,35 @@ color: #50c02d;
 .prez1, .prez2{
   padding :10px;
   margin-bottom: 10px;
-  border:1px solid black;
+  background-color: rgba(236,176,15,0.4);
+  border-radius: 5px;
+ 
 }
 
 
 
 .prez1 p, .prez2 p{
-  background-color: grey;
+  background-color: white;
   text-align: justify;
-  padding:10px;
+  padding:30px;
   margin:10px;
+  border-radius: 5px;
+
+  
+}
+  
 }
 
 /* --------------  -----------------*/
 
   /*Formulaire franchise*/
-
+.imgfranchise {
+  margin-top: 20px;
+}
 .franchise{
-      border: 2px solid black;
-      background: lightblue none repeat scroll 0% 0%;
+      color: #482062;
+      border: 5px solid #482062;
+      background: white: ; none repeat scroll 0% 0%;
       border-radius: 12px;
       padding: 20px 0px 20px 20px;
       margin: 40px 10px;
@@ -146,10 +179,22 @@ color: #50c02d;
      background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
      background-size: cover;
  }
+.textredir {
+    background: rgba(236, 176, 15, 0.4) none repeat scroll 0% 0%;
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(35, 13, 49);
+}
+.redirection a:hover {
+  text-decoration: none;
+}
+
 /*----------restaurant ---------*/
+
 .container-resto{
 margin-top: 80px;
 }
+
 .restotitre{
   margin: 75px 0px 30px 0px;
 
@@ -158,16 +203,18 @@ margin-top: 80px;
     padding-bottom: 100px;}
  .resto img {
  border-radius: 5px
- }   
-  
+
+ }
+
+
 .btnresto {
   margin:10px 0px 35px 0px;
- }  
+ }
 
 .btn-primary {
     color: #482062;
     background-color: #ecb00f;
-    border-color:#ecb00f; 
+    border-color:#ecb00f;
   }
 
 .btn-primary:hover {
@@ -180,13 +227,21 @@ margin-top: 80px;
   
   /*fenetre flottante restaurant*/
 .btn-secondary{
+
+    background-color: #230d31;
+    border-color:#ecb00f;
+    text-decoration: none;
+  }
+
+.btn2{
+
   position: absolute;
   bottom: 0;
   right: 0;
-  margin:5px; 
+  margin:5px;
 }
 
-.btn-secondary:hover {
+.btn2:hover {
   background-color: red;
 }
 .modal-header, .modal-footer{
@@ -194,6 +249,10 @@ border:none;
 }
 .modal-body ul{
 margin-top: 50px;}
+
+
+
+
 
 @media (max-width: 991px ){
 
@@ -203,8 +262,3 @@ margin-top: 50px;}
 
 }
 
-@media (max-width:768px ){
-
-
-  
-}

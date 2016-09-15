@@ -13,24 +13,24 @@ include"inc/header.php";
 
   <div class="carousel-inner">
     <div class="item active">
-      <a href="#"><img  class="test" src="images/test.jpeg" alt="" /></a>
+      <a href="restaurant.php" ><img src="images/slide1.jpg" alt="" /></a>
       <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+        <h3>Cuisine et tradition</h3>
+        <p>Local, bio et bon !</p>
       </div>
     </div>
     <div class="item">
-      <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+      <a href="#"><img src="images/slide2.jpg" /></a>
       <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+        <h3>Ouverture d'un nouvel établissement !</h3>
+        <p>Découvez ce restaurant à Toulouse</p>
       </div>
     </div>
     <div class="item">
-      <a href="#"><img src="http://placekitten.com/1600/600" /></a>
+      <a href="#"><img src="images/slide3.jpg" /></a>
       <div class="carousel-caption">
-        <h3>Meow</h3>
-        <p>Just Kitten Around</p>
+        <h3>Ouverture d'un nouvel établissement !</h3>
+        <p>Découvez ce restaurant à Lyon</p>
       </div>
     </div>
   </div>

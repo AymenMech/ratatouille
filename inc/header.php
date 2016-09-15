@@ -16,14 +16,15 @@
   <body>
 <header>
   <nav>
-    <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="navbar navbar-inverse navbar-fixed-top" style="">
       <div class="container-fluid">
+
         <div class="logotitre"><a class="navbar-brand" href="index.php">
-          <img class ="logo" alt="Brand" src="http://s15.postimg.org/i36mh5kuj/logo3.png
-">
+          <img class ="logo" alt="Brand" src="http://s15.postimg.org/i36mh5kuj/logo3.png">
         </a>
         <h1>Ratatouille</h1>
         </div>
+
         <button class="navbar-toggle" data-toggle ="collapse" data-target = ".navHeaderCollapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -35,7 +36,7 @@
             <li class="menuTitle"><a href="restaurant.php">Nos restaurants</a></li>
             <li class="menuTitle"><a href="about.php">Qui sommes-nous ?</a></li>
             <li class="menuTitle"><a href="franchise.php">Franchise</a></li>
-          </ul> 
+          </ul>
         </div>
       </div>
     </div>
