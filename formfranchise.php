@@ -166,7 +166,7 @@
     </div>
   </div>
 
-    <input type="submit" class="center-block btn btn-success btn-lg" name="name" value="Envoyer">
+    <input type="submit" class="center-block btn btn-primary btn-lg" name="name" value="Envoyer">
 </form>
 
 </div>

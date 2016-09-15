@@ -45,9 +45,7 @@ include"inc/header.php";
      <div class="conteneur panel-body">
 
        <div class="row">
-          <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-3">
-            <img  class="img-responsive" src="images/plat1.jpg">
-          </div>
+
           <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-6">
             <h4 class="text-center">Un concept efficace</h4>
             <p class="text-justify">
@@ -61,6 +59,9 @@ include"inc/header.php";
              4 nouveaux restaurants cette année et déjà 5  en prévision pour l’année prochaine !
              Participez vous aussi à l’expérience Ratatouille.
           </p>
+          </div>
+          <div class="hidden-sm hidden-xs col-md-offset-1 col-md-3">
+            <img  class="img-responsive imgfranchise" src="images/img3.jpg">
           </div>
       </div>
     </div>
@@ -94,7 +95,7 @@ include"inc/header.php";
  </div>
 </div>
 
-<a href="formfranchise.php"<button type="button" class="col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4 btn btn-primary btn-lg">Rejoins l'aventure Ratatouille !</button></a>
+<a href="formfranchise.php"<button type="button" class="btn btn-primary btn-lg col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">Rejoins l'aventure Ratatouille !</button></a>
 
 </div>
 

@@ -11,7 +11,7 @@ include"inc/header.php";
 				<img class=" img-responsive" src="images/drive2/resto1.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -31,19 +31,19 @@ include"inc/header.php";
 						        		<ul>
 						        			<li>adresse:</li>
 						        			<li>17 av delandine</li>
-						        			<li>69002 Lyon</li> 
+						        			<li>69002 Lyon</li>
 						        		</ul>
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto2-->
 		<div class="col-md-4 col-sm-6">
@@ -51,7 +51,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto2.jpg" alt="restaurant de lyon">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -77,13 +77,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto3-->
@@ -92,7 +92,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto3.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -118,13 +118,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto4                ________-->
@@ -133,7 +133,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto4.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -159,13 +159,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 		<!--resto5-->
@@ -174,7 +174,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto5.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -200,13 +200,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto6-->
 		<div class="col-md-4 col-sm-6">
@@ -214,7 +214,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto8.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -240,13 +240,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<!--resto7-->
 		<div class="col-md-4 col-sm-6 ">
@@ -254,7 +254,7 @@ include"inc/header.php";
 				<img class="img-responsive" src="images/drive2/resto7.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -280,13 +280,13 @@ include"inc/header.php";
 						      </div>
 						      <div class="modal-footer">
 						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
-						       
+
 						      </div>
 					    </div>
 				  	  </div>
 					</div>
 				</div>
-			</div>			
+			</div>
 		</div>
 
 	</div>

@@ -7,9 +7,8 @@ body{
 }
 
 .container{
-  margin-top:50px;
-
-
+  margin-top:150px;
+  margin-bottom: 80px;
 }
 
 
@@ -49,11 +48,18 @@ margin-top: 0px;
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: orange;
  }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+   border: none;
+ }
 
 /*--------     footer  ------------------------ */
 .footer{
 
 
+}
+
+.modal-backdrop{
+  position: relative;
 }
 
 footer {
@@ -113,10 +119,13 @@ footer a:hover {
 /* --------------  -----------------*/
 
   /*Formulaire franchise*/
-
+.imgfranchise {
+  margin-top: 20px;
+}
 .franchise{
-      border: 2px solid black;
-      background: lightblue none repeat scroll 0% 0%;
+      color: #482062;
+      border: 5px solid #482062;
+      background: white: ; none repeat scroll 0% 0%;
       border-radius: 12px;
       padding: 20px 0px 20px 20px;
       margin: 40px 10px;
@@ -130,8 +139,18 @@ footer a:hover {
      background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
      background-size: cover;
  }
+.textredir {
+    background: rgba(236, 176, 15, 0.4) none repeat scroll 0% 0%;
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(35, 13, 49);
+}
+.redirection a:hover {
+  text-decoration: none;
+}
 
 /*----------restaurant ---------*/
+
 .restotitre{
   margin-top: 100px;
 }
@@ -141,7 +160,7 @@ footer a:hover {
  border-radius: 5px
  }
 
-.btn {
+.btnresto {
   margin:10px 0px 35px 0px;
  }
 
@@ -155,19 +174,20 @@ footer a:hover {
     color: #ecb00f;
     background-color: #230d31;
     border-color:#ecb00f;
+    text-decoration: none;
   }
 
-.btn-secondary{
+.btn2{
   position: absolute;
   bottom: 0;
   right: 0;
   margin:5px;
 }
 
-.btn-secondary:hover {
+.btn2:hover {
   background-color: red;
 
-}
+}*/
 
 @media (max-width: 991px ){
 
