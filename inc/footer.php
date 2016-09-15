@@ -1,6 +1,4 @@
-
-<footer>
-
+<footer class="navbar-inverse navbar-fixed-bottom">
 
 	<div class="container-fluid">
 		<div class="row">
@@ -49,10 +47,6 @@
     </div>
   </div>
 </div>
-
-
-
-
 
 
 
