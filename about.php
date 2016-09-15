@@ -17,12 +17,12 @@ include"inc/header.php";
 
 
     </div>
-  </div>
+  
 
   <div class="prez2 row">
     <div class="col-sm-offset-1 col-sm-10    col-md-offset-1 col-md-4">
         <img src="http://s21.postimg.org/c15f3t82f/portrait_4.jpg" class="presentation img-rounded photo" alt="" />
-  
+
     </div>
     <div class="col-sm-offset-1 col-sm-10   col-md-offset-1 col-md-4 presentation">
       <p>

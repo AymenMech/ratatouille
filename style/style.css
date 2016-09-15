@@ -1,15 +1,22 @@
 body{
 
-  background-image: url(http://s9.postimg.org/rh8k4ywjj/background.jpg);
+  background-image: url(http://s4.postimg.org/d25yqkfj1/background1.jpg);
   background-attachment: fixed;
   background-size: cover;
   background-position: center center;
+  font-family: 'Acme', sans-serif;
+  color:#482062;
+
 }
 
 .container{
   margin-top:150px;
   margin-bottom: 80px;
 }
+
+ li{
+list-style-type: none;
+ }
 
 
  /*    ---------    header   ---- ------------   */
@@ -20,10 +27,9 @@ body{
 }
 
 .logo{
+  margin-top: -18px;
   height:50px;
   width:auto;
-
-
 }
 .navbar-inverse{
 
@@ -34,6 +40,10 @@ body{
 
   margin-right: 20px;
 
+}
+
+.navbar-inverse .navbar-nav > li > a{
+color: #482062;
 }
 /*couleur du fond bouton nav*/
 .navbar-inverse .navbar-toggle:hover{
@@ -53,17 +63,13 @@ margin-top: 0px;
  }
 
 /*--------     footer  ------------------------ */
-.footer{
-
-
-}
 
 .modal-backdrop{
   position: relative;
 }
 
 footer {
-  color: yellow;
+  color:#482062;
   text-align: center;
   background-color:#ecb00f;
   height: 50px;
@@ -75,9 +81,27 @@ footer {
   margin-top: -5px;
   list-style-type: none;
 }
+
 footer a:hover {
   cursor: pointer;
 }
+
+.fooText a{
+color:#482062;
+font-size: 1.3em;
+}
+.fooText a:hover{
+text-decoration: none;
+color: #50c02d;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+text-decoration: none;
+color: #50c02d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 1.8em;
+}
+
 /*----------- accueil       --------*/
 
 /* decale le caroussel du header*/
@@ -91,7 +115,9 @@ footer a:hover {
   height: 100%;
   }
 
-
+.carousel-caption {
+  color:#ecb00f;
+}
 
 /*    ------about----------------*/
 .photo{
@@ -115,6 +141,9 @@ footer a:hover {
   padding:10px;
   margin:10px;
 }
+.titrefran {
+color: #ecb00f;
+}
 
 /* --------------  -----------------*/
 
@@ -134,7 +163,17 @@ footer a:hover {
 .franchise .row {
   margin-bottom: 20px;
 }
+.panel-default > .panel-heading{
+
+  color: #ecb00f;
+  text-decoration: none;
+}
+
+
+
+
  /*Page d'attente redirection*/
+
 .redirection {
      background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
      background-size: cover;
@@ -151,13 +190,19 @@ footer a:hover {
 
 /*----------restaurant ---------*/
 
+.container-resto{
+margin-top: 80px;
+}
+
 .restotitre{
-  margin-top: 100px;
+  margin: 75px 0px 30px 0px;
+
 }
 .restos{
     padding-bottom: 100px;}
  .resto img {
  border-radius: 5px
+<<<<<<< HEAD
  }
 
 .btnresto {
@@ -165,7 +210,7 @@ footer a:hover {
  }
 
 .btn-primary {
-    color: #230d31;
+    color: #482062;
     background-color: #ecb00f;
     border-color:#ecb00f;
   }
@@ -178,16 +223,39 @@ footer a:hover {
   }
 
 .btn2{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  margin:5px;
+color:#ecb00f;
+    background-color: #482062;
+    border-color:#ecb00f;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin:5px;
+  }
+  .btn2:hover {
+    background-color: #ecb00f;
+  color:#482062;
+
+  }
+
+
+  /*fenetre flottante restaurant*/
+.btn-secondary{
+  color:#ecb00f;
+      background-color: #482062;
+      border-color:#ecb00f;
+}
+.btn-secondary:hover {
+  background-color: #ecb00f;
+color:#482062;
+
 }
 
-.btn2:hover {
-  background-color: red;
+.modal-header, .modal-footer{
+border:none;
+}
+.modal-body ul{
+margin-top: 50px;}
 
-}*/
 
 @media (max-width: 991px ){
 

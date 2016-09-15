@@ -17,7 +17,7 @@ include"inc/header.php";
 
      <div class="panel-body">
        <p class="text-justify">Se lancer en franchise est un processus en plusieurs étapes. Du bilan personnel à l'étude du marché, il faut se fixer des objectifs pour préparer au mieux sa création d'entreprise. Voyons les démarches que vous devez accomplir pour devenir franchisé.
-      <h4 class="text-center">Bilan personnel</h4>
+        <h4 class="text-center titrefran">Bilan personnel</h4>
 
       Le bilan personnel représente un travail d'introspection utile pour tout candidat souhaitant devenir franchisé.
        Avant de se lancer à son compte, il est important de faire un auto-examen et évaluer : sa motivation pour entreprendre,
@@ -47,12 +47,12 @@ include"inc/header.php";
        <div class="row">
 
           <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-6">
-            <h4 class="text-center">Un concept efficace</h4>
+            <h4 class="text-center titrefran">Un concept efficace</h4>
             <p class="text-justify">
               Le concept Ratatouille, de la cuisine réalisés avec des produits frais, bio et locaux répond parfaitement aux nouvelles tendances de consommation.
               Une offre à la fois universelle et personnalisée qui s’adapte aux goûts de chacun. Facilement identifiable, ce concept singulier nous permet de nous démarquer.
             </p>
-            <h4 class="text-center">Une start-up en pleine expension</h4>
+            <h4 class="text-center titrefran">Une start-up en pleine expension</h4>
             <p class="text-justify">
              Avec la franchise Ratatouille vous bénéficiez de la vivacité d’une start-up nationale et du suivi et de l’assistance d’un réseau fort.
              Ratatouille existe depuis seulement 2 ans et est en pleine expansion, notre enseigne fait partie des 100 start-up de France dans lesquels il faut investir !
@@ -95,7 +95,7 @@ include"inc/header.php";
  </div>
 </div>
 
-<a href="formfranchise.php"<button type="button" class="btn btn-primary btn-lg col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">Rejoins l'aventure Ratatouille !</button></a>
+<a href="formfranchise.php"<button type="button" class="hidden-xs btn btn-primary btn-lg col-xs-offset-1 col-xs-10 col-sm-offset-3 col-sm-6 col-md-offset-4 col-md-4">Rejoins l'aventure Ratatouille !</button></a>
 
 </div>
 
