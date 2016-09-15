@@ -2,41 +2,42 @@
 $titre =  "Restaurants";
 include"inc/header.php";
 ?>
-<h2 class="text-center restotitre">Nos restaurants</h2>
-<div class="container">
 
+<div class="container container-resto">
+<h2 class="text-center restotitre">Nos restaurants</h2>
 	<div class="row restos text-center">
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto1">
-				<img class=" img-responsive" src="images/drive2/resto1.jpg">
+			<h2>Lyon</h2>
+				<img class=" img-responsive" src="img/resto1.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal1">En savoir plus
 				</button>
 
 				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 						      <div class="modal-header">
 						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						         	 <span aria-hidden="true">&times;</span>
 						        		</button>
-						        		<h4 class="modal-title" id="myModalLabel">Restaurant Lyon</h4>
+						        		<h4 class="modal-title img-wind" id="myModalLabel">Restaurant Lyon 1</h4>
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto1.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
-						        			<li>adresse:</li>
 						        			<li>17 av delandine</li>
 						        			<li>69002 Lyon</li> 
+						        			<li>04.</li>
 						        		</ul>
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -45,17 +46,18 @@ include"inc/header.php";
 				</div>
 			</div>			
 		</div>
-		<!--resto2-->
+		<!--resto2___________________________________________________________________________________________________________-->
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto2">
-				<img class="img-responsive" src="images/drive2/resto2.jpg" alt="restaurant de lyon">
+			<h2>Borbdeaux</h2>
+				<img class="img-responsive" src="img/resto2.jpg" alt="restaurant de lyon">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal2">En savoir plus
 				</button>
 
 				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 						      <div class="modal-header">
@@ -66,7 +68,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto2.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -76,7 +78,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -89,14 +91,15 @@ include"inc/header.php";
 		<!--resto3-->
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto3">
-				<img class="img-responsive" src="images/drive2/resto3.jpg">
+			<h2>Fontaine</h2>
+				<img class="img-responsive" src="img/resto3.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal3">En savoir plus
 				</button>
 
 				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 						      <div class="modal-header">
@@ -107,7 +110,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto3.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -117,7 +120,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -130,14 +133,14 @@ include"inc/header.php";
 		<!--resto4                ________-->
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto4">
-				<img class="img-responsive" src="images/drive2/resto4.jpg">
+				<img class="img-responsive" src="img/resto4.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal4">En savoir plus
 				</button>
 
 				<!-- Modal -->
-				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal fade" id="myModal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 						      <div class="modal-header">
@@ -148,7 +151,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto4.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -158,7 +161,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -171,10 +174,10 @@ include"inc/header.php";
 		<!--resto5-->
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto5">
-				<img class="img-responsive" src="images/drive2/resto5.jpg">
+				<img class="img-responsive" src="img/resto5.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -189,7 +192,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto5.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -199,7 +202,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -211,10 +214,10 @@ include"inc/header.php";
 		<!--resto6-->
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto6">
-				<img class="img-responsive" src="images/drive2/resto8.jpg">
+				<img class="img-responsive" src="img/resto6.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -229,7 +232,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto6.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -239,7 +242,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>
@@ -251,10 +254,10 @@ include"inc/header.php";
 		<!--resto7-->
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto7">
-				<img class="img-responsive" src="images/drive2/resto7.jpg">
+				<img class="img-responsive" src="img/resto7.jpg">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
-				<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">En savoir plus
+				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
 				</button>
 
 				<!-- Modal -->
@@ -269,7 +272,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6" src="https://www.cachem.fr/wp-content/uploads/2016/08/image-couleur.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto7.jpg">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -279,7 +282,7 @@ include"inc/header.php";
 						        	</div>
 						      </div>
 						      <div class="modal-footer">
-						        <button type="button" class="btn btn-secondary" data-dismiss="modal">fermer</button>
+						        <button type="button" class="btn btn-secondary btn2" data-dismiss="modal">fermer</button>
 						       
 						      </div>
 					    </div>

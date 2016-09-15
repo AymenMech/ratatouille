@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="style/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet"> 
 
     <title>
     <?php echo $titre; ?>
@@ -18,7 +19,8 @@
     <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="logotitre"><a class="navbar-brand" href="index.php">
-          <img class ="logo" alt="Brand" src="http://s13.postimg.org/baefyh91j/logo2.png">
+          <img class ="logo" alt="Brand" src="http://s15.postimg.org/i36mh5kuj/logo3.png
+">
         </a>
         <h1>Ratatouille</h1>
         </div>
