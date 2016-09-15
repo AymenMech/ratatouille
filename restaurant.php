@@ -20,7 +20,7 @@ include"inc/header.php";
 				  <div class="modal-dialog" role="document">
 					    <div class="modal-content">
 						      <div class="modal-header">
-						        	<button type="button" class="close btn2" data-dismiss="modal" aria-label="Close">
+						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						         	 <span aria-hidden="true">&times;</span>
 						        		</button>
 						        		<h4 class="modal-title img-wind" id="myModalLabel">Restaurant Lyon 1</h4>

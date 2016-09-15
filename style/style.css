@@ -14,6 +14,7 @@ body{
   margin-bottom: 80px;
 }
 
+
  li{
 list-style-type: none;
  }
@@ -31,6 +32,7 @@ list-style-type: none;
   height:50px;
   width:auto;
 }
+
 .navbar-inverse{
 
   background-color:#ecb00f;
@@ -82,9 +84,11 @@ footer {
   list-style-type: none;
 }
 
+
 footer a:hover {
   cursor: pointer;
 }
+
 
 .fooText a{
 color:#482062;
@@ -101,6 +105,7 @@ color: #50c02d;
 .navbar-inverse .navbar-nav > li > a {
   font-size: 1.8em;
 }
+
 
 /*----------- accueil       --------*/
 
@@ -130,16 +135,23 @@ color: #50c02d;
 .prez1, .prez2{
   padding :10px;
   margin-bottom: 10px;
-  border:1px solid black;
+  background-color: rgba(236,176,15,0.4);
+  border-radius: 5px;
+
 }
 
 
 
 .prez1 p, .prez2 p{
-  background-color: grey;
+  background-color: white;
   text-align: justify;
-  padding:10px;
+  padding:30px;
   margin:10px;
+  border-radius: 5px;
+
+
+}
+
 }
 .titrefran {
 color: #ecb00f;
@@ -202,7 +214,6 @@ margin-top: 80px;
     padding-bottom: 100px;}
  .resto img {
  border-radius: 5px
-<<<<<<< HEAD
  }
 
 .btnresto {
@@ -217,13 +228,14 @@ margin-top: 80px;
 
 .btn-primary:hover {
     color: #ecb00f;
+
     background-color: #230d31;
     border-color:#ecb00f;
     text-decoration: none;
   }
 
 .btn2{
-color:#ecb00f;
+    color:#ecb00f;
     background-color: #482062;
     border-color:#ecb00f;
     position: absolute;
@@ -233,20 +245,24 @@ color:#ecb00f;
   }
   .btn2:hover {
     background-color: #ecb00f;
-  color:#482062;
+    color:#482062;
 
   }
 
 
   /*fenetre flottante restaurant*/
 .btn-secondary{
-  color:#ecb00f;
+
+      color:#ecb00f;
       background-color: #482062;
       border-color:#ecb00f;
-}
+      text-decoration: none;
+  }
+
+
 .btn-secondary:hover {
-  background-color: #ecb00f;
-color:#482062;
+      background-color: #ecb00f;
+      color:#482062;
 
 }
 
@@ -256,17 +272,10 @@ border:none;
 .modal-body ul{
 margin-top: 50px;}
 
-
 @media (max-width: 991px ){
 
   .prez2{
   display:flex;
   flex-direction: column-reverse;}
-
-}
-
-@media (max-width:768px ){
-
-
 
 }
