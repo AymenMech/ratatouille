@@ -6,7 +6,7 @@ body{
   margin-top:50px;
   background-image: url(http://s18.postimg.org/anoe9vccp/food_1622390.jpg);
 
-} 
+}
 
 
  /*    ---------    header   ---- ------------   */
@@ -17,12 +17,11 @@ body{
 }
 .navbar-inverse{
   background-color:#990033;
-
 }
 .navbar-right, .menuTitle{
-  
+
   margin-right: 20px;
-  
+
 }
 /*couleur du fond bouton nav*/
 .navbar-inverse .navbar-toggle:hover{
@@ -30,15 +29,15 @@ body{
   background-color: blue;
 }
 /*couleur du bouton*/
-    
+
 .navbar-inverse .navbar-toggle .icon-bar {
     background-color: orange;
 }
 
 /*--------     footer  ------------------------ */
 .footer{
-  
- 
+
+
 }
 
 footer {
@@ -54,13 +53,15 @@ footer {
   margin-top: -5px;
   list-style-type: none;
 }
-
+footer a:hover {
+  cursor: pointer;
+}
 /*----------- accueil       --------*/
 
 /* decale le caroussel du header*/
 .carousel-inner > .item > a > img{
 
-  margin-top:50px; 
+  margin-top:50px;
   }
 
 
@@ -106,4 +107,3 @@ footer {
      background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
      background-size: cover;
  }
-

@@ -13,17 +13,17 @@ include"inc/header.php";
         </p>
       </div>
     <div class="col-sm-offset-1 col-sm-10      col-md-offset-1 col-md-4">
-      
+
         <img src="images/damien.jpg" class="presentation img-rounded photo" alt ="Portrait de damien armenté"/>
-      
+
     </div>
   </div>
 
   <div class="prez2 row">
     <div class="col-sm-offset-1 col-sm-10    col-md-offset-1 col-md-4">
-      
+
         <img src="images/laurent.jpg" class="presentation img-rounded photo" alt="" />
-      
+
     </div>
     <div class="col-sm-offset-1 col-sm-10   col-md-offset-1 col-md-4 presentation">
       <p>
