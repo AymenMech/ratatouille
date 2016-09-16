@@ -14,21 +14,21 @@ include"inc/header.php";
   <div class="carousel-inner">
     <div class="item active">
       <a href="franchise.php" ><img src="images/slide1.jpg" alt="" /></a>
-      <div class="carousel-caption">
+      <div class="center-block carousel-caption">
         <h3>Cuisine et tradition</h3>
         <p>Local, bio et bon !</p>
       </div>
     </div>
     <div class="item">
       <a href="restaurant.php"><img src="images/slide2.jpg" /></a>
-      <div class="carousel-caption">
+      <div class="center-block carousel-caption">
         <h3>Ouverture d'un nouvel établissement !</h3>
         <p>Découvez ce restaurant à Toulouse</p>
       </div>
     </div>
     <div class="item">
       <a href="restaurant.php"><img src="images/slide3.jpg" /></a>
-      <div class="carousel-caption">
+      <div class="center-block carousel-caption">
         <h3>Ouverture d'un nouvel établissement !</h3>
         <p>Découvez ce restaurant à Lyon</p>
       </div>
