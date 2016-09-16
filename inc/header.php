@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
 
     <title>
-    <?php echo $titre; ?>
+    <?php echo $title; ?>
     </title>
 
   </head>

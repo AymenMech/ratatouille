@@ -1,5 +1,5 @@
 <?php
-$titre =  "Restaurants";
+$title =  "Restaurants";
 include"inc/header.php";
 ?>
 
@@ -9,7 +9,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto1">
 			<h2>Lyon</h2>
-				<img class="img-rounded img-responsive" src="img/resto1.jpg">
+				<img class="img-rounded img-responsive" src="img/resto1.jpg" alt="restaurant lyon">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal1">En savoir plus
@@ -23,11 +23,11 @@ include"inc/header.php";
 						        	<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 						         	 <span aria-hidden="true">&times;</span>
 						        		</button>
-						        		<h4 class="modal-title img-wind" id="myModalLabel">Restaurant Lyon 1</h4>
+						        		<h4 class="modal-title" id="myModalLabel">Restaurant Lyon 1</h4>
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto1.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto1.jpg" alt="restaurant lyon">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>17 avenue delandine</li>
@@ -50,7 +50,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto2">
 			<h2>Bordeaux</h2>
-				<img class="img-responsive" src="img/resto2.jpg" alt="restaurant de lyon">
+				<img class="img-responsive" src="img/resto2.jpg" alt="restaurant bordeaux">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal2">En savoir plus
@@ -68,7 +68,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto2.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto2.jpg" alt="restaurant bordeaux">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -92,7 +92,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto3">
 			<h2>Fontainebleau</h2>
-				<img class="img-responsive" src="img/resto3.jpg">
+				<img class="img-responsive" src="img/resto3.jpg" alt="restaurant fontainebleau">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal3">En savoir plus
@@ -110,7 +110,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto3.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto3.jpg" alt="restaurant fontainebleau">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -134,7 +134,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto4">
 					<h2>La Loupe</h2>
-				<img class="img-responsive" src="img/resto4.jpg">
+				<img class="img-responsive" src="img/resto4.jpg" alt="restaurant la loupe">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal4">En savoir plus
@@ -152,7 +152,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto4.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto4.jpg" alt="restaurant la loupe">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -171,11 +171,11 @@ include"inc/header.php";
 			</div>
 		</div>
 
-		<!--resto5-->
+
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto5">
 					<h2>Orléans</h2>
-				<img class="img-rounded img-responsive" src="img/resto5.jpg">
+				<img class="img-rounded img-responsive" src="img/resto5.jpg" alt="restaurant Orléan">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
@@ -193,7 +193,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto5.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto5.jpg" alt="restaurant orlean">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -216,7 +216,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6">
 			<div class="resto resto6">
 					<h2>Toulouse</h2>
-				<img class="img-responsive" src="img/resto6.jpg">
+				<img class="img-responsive" src="img/resto6.jpg" alt="restaurant toulouse">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
@@ -234,7 +234,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto6.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto6.jpg" alt="restaurant toulouse">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
@@ -259,7 +259,7 @@ include"inc/header.php";
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto7">
 					<h2>Chartres</h2>
-				<img class="img-responsive" src="img/resto7.jpg">
+				<img class="img-responsive" src="img/resto7.jpg" alt="restaurant chartres">
 				<div class="modal-boutton">
 				<!-- Button trigger modal -->
 				<button type="button" class="btn btn-primary btn-lg btnresto" data-toggle="modal" data-target="#myModal">En savoir plus
@@ -277,7 +277,7 @@ include"inc/header.php";
 						      		</div>
 						      <div class="modal-body">
 						        <p>Ici le contenu de mon restaurant, a lyon c'est cool !</p>
-						        <img class="col-md-6 img-responsive" src="img/resto7.jpg">
+						        <img class="col-md-6 img-responsive" src="img/resto7.jpg" alt="restaurant chartres">
 						        	<div class="col-md-6">
 						        		<ul>
 						        			<li>adresse:</li>
