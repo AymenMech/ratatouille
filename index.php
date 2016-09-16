@@ -3,6 +3,7 @@
 $title= "Accueil";
 include"inc/header.php";
 ?>
+
   <div class="hidden-xs hidden-sm">
     <div id="carousel-example" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
