@@ -1,22 +1,294 @@
-/*div {
-  border: 1px solid Black;
-  padding: 3px;*/
+body{
 
-li a {
-  color: red;
+  background-image: url(http://s4.postimg.org/d25yqkfj1/background1.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+  font-family: 'Acme', sans-serif;
+  color:#482062;
+}
+p{
+  font-size: 1.2em;
+}
+.container{
+  margin-top:150px;
+  margin-bottom: 80px;
 }
 
-li a:hover {
-  color: green;
+
+ li{
+list-style-type: none;
+ }
+
+
+ /*    ---------    header   ---- ------------   */
+
+.logotitre{
+  margin-top: 30px;
+  display: block;
+}
+
+.logo{
+  margin-top: -18px;
+  height:50px;
+  width:auto;
+}
+
+.navbar-inverse{
+
+  background-color: #ecb00f;
+
+}
+.navbar-right, .menuTitle{
+
+  margin-right: 20px;
+
+}
+
+.navbar-inverse .navbar-nav > li > a{
+color: #482062;
+}
+/*couleur du fond bouton nav*/
+.navbar-inverse .navbar-toggle:hover{
+  /*background-color: #ecb00f;*/
+  background-color: #50c02d;
+}
+.navbar-toggle{
+
+margin-top: -45px;
+
+}
+/*couleur du bouton*/
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: #482062;
+
+ }
+ .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
+   border: none;
+ }
+
+/*--------     footer  ------------------------ */
+
+.modal-backdrop{
+  position: relative;
+}
+
+footer {
+  color:#482062;
+  text-align: center;
+  background-color:#ecb00f;
+  height: 50px;
+}
+.fooText{
+  margin-top: 15px;
+}
+.fooText ul li {
+  margin-top: -5px;
+  list-style-type: none;
+}
+
+
+footer a:hover {
+  cursor: pointer;
+}
+
+
+.fooText a{
+color:#482062;
+font-size: 1.3em;
+}
+.fooText a:hover{
+text-decoration: none;
+color: #50c02d;
+}
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover{
+text-decoration: none;
+color: #50c02d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  font-size: 1.8em;
+}
+
+
+/*----------- accueil       --------*/
+
+/* decale le caroussel du header*/
+
+
+
+
+.carousel-inner > .item > a > img{
+  margin-top:50px;
+  width: 100%;
+  height: auto;
   }
 
+.carousel-caption {
+  width: 400px;
+  color:#ecb00f;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+}
+.margin-bloc{
+margin-bottom: 40px;
+text-align: justify;
+}
+
+
+/*    ------about----------------*/
+.photo{
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin:0 auto;
+  border-radius: 10px;
+}
+.prez1, .prez2{
+  padding :10px;
+  margin-bottom: 10px;
+  background-color: rgba(236,176,15,0.4);
+  border-radius: 5px;
+
+}
+
+
+
+.prez1 p, .prez2 p{
+  background-color: white;
+  text-align: justify;
+  padding:30px;
+  margin:10px;
+  border-radius: 5px;
+
+
+}
+
+
+.titrefran {
+color: #ecb00f;
+}
+
+/* --------------  -----------------*/
+
+  /*Formulaire franchise*/
+.imgfranchise {
+  margin-top: 20px;
+}
 .franchise{
-      border: 2px solid black;
-      background: lightblue none repeat scroll 0% 0%;
+      color: #482062;
+      border: 5px solid #482062;
+      background: white none repeat scroll 0% 0%;
       border-radius: 12px;
       padding: 20px 0px 20px 20px;
+      margin: 40px 10px;
 }
 
 .franchise .row {
   margin-bottom: 20px;
+}
+.panel-default > .panel-heading{
+
+  color: #ecb00f;
+  text-decoration: none;
+}
+
+
+
+
+ /*Page d'attente redirection*/
+
+.redirection {
+     background:url("https://s18.postimg.org/anoe9vccp/food_1622390.jpg") no-repeat fixed center;
+     background-size: cover;
+ }
+.textredir {
+    background: rgba(255,255, 255, 0.4) none repeat scroll 0% 0%;
+    padding: 30px;
+    border-radius: 15px;
+    color: rgb(35, 13, 49);
+}
+
+.redirection a:hover {
+  text-decoration: none;
+}
+
+/*----------restaurant ---------*/
+
+.container-resto{
+margin-top: 80px;
+}
+
+.restotitre{
+  margin: 75px 0px 30px 0px;
+
+}
+.restos{
+    padding-bottom: 100px;}
+ .resto img {
+ border-radius: 5px
+ }
+
+.btnresto {
+  margin:10px 0px 35px 0px;
+ }
+
+.btn-primary {
+    color: #482062;
+    background-color: #ecb00f;
+    border-color:#ecb00f;
+  }
+
+.btn-primary:hover {
+    color: #ecb00f;
+
+    background-color: #230d31;
+    border-color:#ecb00f;
+    text-decoration: none;
+  }
+
+.btn2{
+    color:#ecb00f;
+    background-color: #482062;
+    border-color:#ecb00f;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin:5px;
+  }
+  .btn2:hover {
+    background-color: #ecb00f;
+    color:#482062;
+
+  }
+
+
+  /*fenetre flottante restaurant*/
+.btn-secondary{
+
+      color:#ecb00f;
+      background-color: #482062;
+      border-color:#ecb00f;
+      text-decoration: none;
+  }
+
+
+.btn-secondary:hover {
+      background-color: #ecb00f;
+      color:#482062;
+
+}
+
+.modal-header, .modal-footer{
+border:none;
+}
+.modal-body ul{
+margin-top: 50px;}
+
+@media (max-width: 991px ){
+
+  .prez2{
+  display:flex;
+  flex-direction: column-reverse;}
+
 }

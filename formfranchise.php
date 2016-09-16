@@ -1,4 +1,12 @@
 <?php include'inc/link.php'; ?>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulaire</title>
+  </head>
+  <body>
+
 
 <div class="container">
   <form class="franchise" action="redirec.php" method="post">
@@ -158,7 +166,9 @@
     </div>
   </div>
 
-    <input type="submit" class="center-block btn btn-success btn-lg" name="name" value="Envoyer">
+    <input type="submit" class="center-block btn btn-primary btn-lg" name="name" value="Envoyer">
 </form>
 
 </div>
+</body>
+</html>
