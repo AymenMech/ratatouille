@@ -1,5 +1,5 @@
 <?php
-$titre =  "Restaurants";
+$title =  "Restaurants";
 include"inc/header.php";
 ?>
 
@@ -171,7 +171,7 @@ include"inc/header.php";
 			</div>
 		</div>
 
-		<<<!--resto5--></!--resto5--></!--resto5-->
+	<!--resto5-->
 		<div class="col-md-4 col-sm-6 ">
 			<div class="resto resto5">
 					<h2>Orléans</h2>

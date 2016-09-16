@@ -1,5 +1,5 @@
 <?php
-$titre =  "Qui sommes nous";
+$title =  "Qui sommes nous";
 include"inc/header.php";
 ?>
 <div class="container">
@@ -17,7 +17,7 @@ include"inc/header.php";
 
 
     </div>
-  
+
 
   <div class="prez2 row">
     <div class="col-sm-offset-1 col-sm-10    col-md-offset-1 col-md-4">
@@ -30,7 +30,7 @@ include"inc/header.php";
       </p>
     </div>
   </div>
-  
+
 
 
 

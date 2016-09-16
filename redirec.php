@@ -10,7 +10,7 @@
 
 <div class="container">
   <div class="row">
-    <div style="margin-top: 200px;" class="col-md-offset-4 col-md-4">
+    <div class="col-md-offset-4 col-md-4">
       <p class="text-justify textredir">Merci, nous avons bien reçu vos informations et allons traiter votre demande dans les plus brefs délai.
         Patientez quelques secondes ou cliquez sur le bouton pour être rediriger</p>
 
@@ -22,7 +22,7 @@
 
 <?php
 
-//header('Refresh: 5;  index.php');
+header('Refresh: 5;  index.php');
  ?>
 </body>
 </html>

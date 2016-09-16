@@ -1,6 +1,6 @@
 
 <?php
-$titre="Franchise";
+$title="Franchise";
 include"inc/header.php";
 ?>
 
@@ -16,20 +16,17 @@ include"inc/header.php";
    <div id="collapse1" class="panel-collapse collapse in">
 
      <div class="panel-body">
-       <p class="text-justify">Se lancer en franchise est un processus en plusieurs étapes. Du bilan personnel à l'étude du marché, il faut se fixer des objectifs pour préparer au mieux sa création d'entreprise. Voyons les démarches que vous devez accomplir pour devenir franchisé.
-        <h4 class="text-center titrefran">Bilan personnel</h4>
+       <p class="text-justify">Se lancer en franchise est un processus en plusieurs étapes. Du bilan personnel à l'étude du marché, il faut se fixer des objectifs pour préparer au mieux sa création d'entreprise. Voyons les démarches que vous devez accomplir pour devenir franchisé.>
+       </p>
+        <h3 class="text-center titrefran">Bilan personnel</h3>
+        <p class="text-justify">
+          Le bilan personnel représente un travail d'introspection utile pour tout candidat souhaitant devenir franchisé.
+           Avant de se lancer à son compte, il est important de faire un auto-examen et évaluer : sa motivation pour entreprendre,
+          son profil et ses capacités de financement. Devenir franchisé est une aventure qui nécessite du temps, des ressources financières
+          et de l'énergie. Par ailleurs, le projet comportant des risques, l'environnement familial doit également être favorable
+          à une telle entreprise. Devenir franchisé c’est avant tout créer une entreprise . Un entrepreneur indépendant doit avoir des compétences en management,
+          gestion, prise de décision, en relationnel et surtout des compétences commerciales. Alors, prêt pour ces sacrifices ?
 
-      Le bilan personnel représente un travail d'introspection utile pour tout candidat souhaitant devenir franchisé.
-       Avant de se lancer à son compte, il est important de faire un auto-examen et évaluer : sa motivation pour entreprendre,
-      son profil et ses capacités de financement. Devenir franchisé est une aventure qui nécessite du temps, des ressources financières
-      et de l'énergie. Par ailleurs, le projet comportant des risques, l'environnement familial doit également être favorable
-      à une telle entreprise. Enfin, il est probable que vous soyez amener à travailler loin de chez vous.
-      Une mobilité géographique est alors nécessaire. Alors, prêt pour ces sacrifices ?
-      Devenir franchisé c’est avant tout créer une entreprise . Un entrepreneur indépendant doit avoir des compétences en management,
-      gestion, prise de décision, en relationnel et surtout des compétences commerciales.
-      Votre capacité de financement
-      Le montant de l’apport personnel doit couvrir le 1/3 de l’investissement total.
-      Les capitaux nécessaires peuvent aller de 5 000 à plus de 500 000 euros. Evaluez au mieux votre patrimoine et assurez-vous au préalable d’avoir des fonds propres suffisants. Le cas échéant, rapprochez de votre banque pour calculer votre capacité d'emprunt.
       </p>
     </div>
    </div>
@@ -47,12 +44,12 @@ include"inc/header.php";
        <div class="row">
 
           <div class="col-xs-offset-1 col-xs-10 col-md-offset-1 col-md-6">
-            <h4 class="text-center titrefran">Un concept efficace</h4>
+            <h3 class="text-center titrefran">Un concept efficace</h3>
             <p class="text-justify">
               Le concept Ratatouille, de la cuisine réalisés avec des produits frais, bio et locaux répond parfaitement aux nouvelles tendances de consommation.
               Une offre à la fois universelle et personnalisée qui s’adapte aux goûts de chacun. Facilement identifiable, ce concept singulier nous permet de nous démarquer.
             </p>
-            <h4 class="text-center titrefran">Une start-up en pleine expension</h4>
+            <h3 class="text-center titrefran">Une start-up en pleine expension</h3>
             <p class="text-justify">
              Avec la franchise Ratatouille vous bénéficiez de la vivacité d’une start-up nationale et du suivi et de l’assistance d’un réseau fort.
              Ratatouille existe depuis seulement 2 ans et est en pleine expansion, notre enseigne fait partie des 100 start-up de France dans lesquels il faut investir !
@@ -76,7 +73,7 @@ include"inc/header.php";
    </div>
    <div id="collapse3" class="panel-collapse collapse">
      <div class="panel-body">
-       <p>
+       <p class="text-justify">
 
 
        Le franchisé Ratatouille est à la fois commerçant, entrepreneur et manager.
@@ -88,7 +85,7 @@ include"inc/header.php";
        un commerce de proximité. Savoir s’approprier le concept Ratatouille et le maximiser.
        Nous proposons un concept de franchise efficace qui a fait ses preuves. Nous nous efforçons de fournir à nos franchisés les outils
        et les formations nécessaires pour diriger leurs restaurants et en faire des modèles de réussites locales.
-       Si vous pensez correspondre au profil recherché, remplissez le Formulaire en clicquant sur le bouton.
+       Si vous pensez correspondre au profil recherché, remplissez le Formulaire en cliquant sur le bouton.
       </p>
     </div>
    </div>

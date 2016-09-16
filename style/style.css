@@ -6,9 +6,10 @@ body{
   background-position: center center;
   font-family: 'Acme', sans-serif;
   color:#482062;
-
 }
-
+p{
+  font-size: 1.2em;
+}
 .container{
   margin-top:150px;
   margin-bottom: 80px;
@@ -35,7 +36,7 @@ list-style-type: none;
 
 .navbar-inverse{
 
-  background-color:#ecb00f;
+  background-color: #ecb00f;
 
 }
 .navbar-right, .menuTitle{
@@ -49,8 +50,8 @@ color: #482062;
 }
 /*couleur du fond bouton nav*/
 .navbar-inverse .navbar-toggle:hover{
-
-  background-color: blue;
+  /*background-color: #ecb00f;*/
+  background-color: #50c02d;
 }
 .navbar-toggle{
 margin-top: 0px;
@@ -58,7 +59,8 @@ margin-top: 0px;
 /*couleur du bouton*/
 
 .navbar-inverse .navbar-toggle .icon-bar {
-    background-color: orange;
+    background-color: #482062;
+
  }
  .navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form{
    border: none;
@@ -122,6 +124,8 @@ color: #50c02d;
 
 .carousel-caption {
   color:#ecb00f;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 12px;
 }
 
 /*    ------about----------------*/
@@ -152,7 +156,7 @@ color: #50c02d;
 
 }
 
-}
+
 .titrefran {
 color: #ecb00f;
 }
@@ -166,7 +170,7 @@ color: #ecb00f;
 .franchise{
       color: #482062;
       border: 5px solid #482062;
-      background: white: ; none repeat scroll 0% 0%;
+      background: white none repeat scroll 0% 0%;
       border-radius: 12px;
       padding: 20px 0px 20px 20px;
       margin: 40px 10px;
