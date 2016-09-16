@@ -54,7 +54,7 @@ color: #482062;
   background-color: #50c02d;
 }
 .navbar-toggle{
-margin-top: 0px;
+margin-top: -30px;
 }
 /*couleur du bouton*/
 
@@ -118,8 +118,8 @@ color: #50c02d;
 
 .carousel-inner > .item > a > img{
   margin-top:50px;
-  width: auto;
-  height: 100%;
+  width: 100%;
+  height: auto;
   }
 
 .carousel-caption {
