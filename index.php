@@ -15,7 +15,7 @@ include"inc/header.php";
       <div class="carousel-inner">
         <div class="item active">
 
-          <a href="franchise.php" ><img src="images/slide1.jpg" alt="image presentation caroussel" /></a>
+          <a href="about.php" ><img src="images/slide1.jpg" alt="image presentation caroussel" /></a>
           <div class="center-block carousel-caption">
 
             <h3>Cuisine et tradition</h3>
@@ -54,10 +54,10 @@ include"inc/header.php";
 <div class="bloc-index container">
     <div class="col-md-12 text-center">
       <div class="row">
-      <h2>Bienvenue</h2>
+      <h2 style="margin-top:-50px;">Bienvenue</h2>
       <p class="margin-bloc">Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générate</p>
       </div>
-        <!--___________bloc 1___________ -->
+        <!--___________bloc 1___________ <--></-->
     </div>
 
     <div class="bloc1 col-md-4">
